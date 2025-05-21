@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "xortool"
-version = "1.0.2"
+version = "1.1.0"
 description = "A tool to analyze multi-byte xor cipher"
 authors = ["hellman"]
 license = "MIT"
@@ -23,7 +23,7 @@ homepage = "http://github.com/hellman/xortool"
 python = ">=3.6,<4.0"
 docopt = "^0.6.2"
 
-[tool.poetry.dev-dependencies]
+[tool.poetry.group.dev.dependencies]
 docopt = "^0.6.2"
 importlib_metadata = "^4.8"
 
